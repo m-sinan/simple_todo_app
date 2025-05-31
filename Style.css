@@ -1,0 +1,46 @@
+#section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+#section-one h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+#section-two {
+  width: 80vw;
+}
+#section-two input {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+#section-two button {
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.658);
+}
+#section-three {
+  width: 70vw;
+  border-radius: 20px;
+  background-color: #ffffff63;
+  height: auto;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.taskList {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  #section-two button {
+    width: 50%;
+  }
+  #section-three {
+    width: 90vw;
+    margin-top: 25px;
+  }
+}
